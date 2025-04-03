@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit User</title>
+    <title>Modify Data</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Modify User</h1>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="view.html">View Users</a></li>
-            <li><a href="add.html">Add User</a></li>
+            <li><a href="view.html">View Data</a></li>
+            <li><a href="add.html">Add Data</a></li>
+            <li><a href="edit.html">Modify Data</a></li>
         </ul>
     </nav>
-
+    <h1>Edit User</h1>
     <form id="editUserForm">
-        <input type="text" id="userId" placeholder="User ID" required>
-        <input type="text" id="newName" placeholder="New Name">
-        <input type="email" id="newEmail" placeholder="New Email">
+        <input type="text" id="editName" placeholder="Name" required>
+        <input type="email" id="editEmail" placeholder="Email" required>
         <button type="submit">Update User</button>
     </form>
-
-    <script src="script.js"></script>
 </body>
 </html>
